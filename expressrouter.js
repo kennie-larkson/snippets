@@ -6,9 +6,11 @@ app.get('/', (req, res)=>{
     
     // res.send('./index.html');
     
+    
 })
 app.use(express.static('public'));
 
 app.listen(port, (req, res)=>{
     console.log(`Server running on port: ${port}`);
+    
 })
